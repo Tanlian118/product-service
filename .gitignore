@@ -10,6 +10,7 @@
 *.war
 *.ear
 *.iml
+.idea/*
 */target/
 target/
 rebel.xml
