@@ -1,0 +1,3 @@
+com\product\entity\ProductEntity.class
+com\product\service\impl\ProductQueryServiceImpl.class
+com\product\dao\ProductDAO.class
