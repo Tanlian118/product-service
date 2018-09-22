@@ -26,10 +26,10 @@ selenium-debug.log
 test/unit/coverage
 test/e2e/reports
 **/config/index.js
-product-service/src/main/webapp/static
-product-service/src/main/webapp/index.html
-product-service/src/main/webapp/*.html
-product-service/src/main/webapp/stats.json
+product-service-publish/src/main/webapp/static
+product-service-publish/src/main/webapp/index.html
+product-service-publish/src/main/webapp/*.html
+product-service-publish/src/main/webapp/stats.json
 
 yarn-debug.log*
 yarn-error.log*

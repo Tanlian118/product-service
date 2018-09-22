@@ -30,7 +30,7 @@ public class ProductQueryServiceImpl implements ProductQueryService {
     public List<ProductDTO> queryProductByIds(Set<String> productIds) {
         List<ProductEntity> productEntities = productDAO.queryByIds(productIds);
         if (CollectionUtils.isEmpty(productEntities)) {
-            return Collections.EMPTY_LIST;
+            return Collections.emptyList();
         }
        return Lists2.transform(productEntities, ProductTransformers.ENTITY_TO_DTO);
     }
