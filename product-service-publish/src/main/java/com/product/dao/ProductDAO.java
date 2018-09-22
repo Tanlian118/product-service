@@ -17,7 +17,7 @@ public interface ProductDAO {
     @Select({"<script>",
             "SELECT product_id, name, keyword, code, head_image, type, tag, status",
             "FROM product",
-            "WHERE status = 1 AND type = 0 AND product_id IN",
+            "WHERE product_id IN",
             "<if test='type=0 and status=1'>",
             "<foreach item='id' collection='productIds' open='(' separator=',' close=')'>",
             "#{id}",

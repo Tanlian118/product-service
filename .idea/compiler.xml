@@ -27,7 +27,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="product-service" target="1.5" />
+      <module name="product-service" target="1.8" />
       <module name="product-service-api" target="1.8" />
       <module name="product-service-publish" target="1.8" />
     </bytecodeTargetLevel>

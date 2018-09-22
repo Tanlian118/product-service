@@ -1,3 +1,5 @@
-com\product\service\ProductQueryService.class
 com\product\dto\ProductDTO.class
 com\product\param\ProductQueryParam.class
+com\product\service\ProductStockService.class
+com\product\dto\ProductStockDTO.class
+com\product\service\ProductQueryService.class

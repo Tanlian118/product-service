@@ -1,3 +1,8 @@
-com\product\entity\ProductEntity.class
+com\product\dao\ProductStockDAO.class
 com\product\service\impl\ProductQueryServiceImpl.class
+com\product\entity\ProductStockEntity.class
 com\product\dao\ProductDAO.class
+com\product\service\impl\ProductStockServiceImpl.class
+com\product\entity\ProductEntity.class
+com\product\transformer\ProductStockTransformer.class
+com\product\transformer\ProductTransformers.class
